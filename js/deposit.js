@@ -21,7 +21,7 @@ document.getElementById('deposit__btn').addEventListener('click', function () {
     const balanceTotalString = balanceTotalElement.innerText;
     const balanceConvert = parseFloat(balanceTotalString);
 
-    const currentBalance = balanceConvert + depositInput;
+    const currentBalance = balanceConvert + depositAmount;
 
     balanceTotalElement.innerText = currentBalance;
 
