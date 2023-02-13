@@ -72,6 +72,22 @@ body {
     color: tomato;
 }
 
+.login__form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__form ul li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
 /* Login area css start  */
 
 
