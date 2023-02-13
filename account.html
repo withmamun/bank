@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS files link here  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bank Hanzo Account</title>
+</head>
+
+<body>
+
+    <div class="account__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="account__single__blk">
+                        <h4>Deposit</h4>
+                        <p>$<span id="deposit__amount">0</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="account__single__blk">
+                        <h4>withdraw</h4>
+                        <p>$<span id="withdraw__total">0</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="account__single__blk">
+                        <h4>balance</h4>
+                        <p>$<span id="balance__amount">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="account__main__blk">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="account__form">
+                            <h4>please deposit</h4>
+                            <input type="text" placeholder="$ Ammount you want to deposit" name="" id="deposit__input">
+                            <button id="deposit__btn">deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="account__form">
+                            <h4>please withdraw</h4>
+                            <input type="text" placeholder="$ Ammount you want to withdraw" name=""
+                                id="withdraw__amount">
+                            <button id="withdraw__btn">withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Javascript files link here  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+</body>
+
+</html>

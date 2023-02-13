@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Login area css start  */
+
+.login__area {
+    background: linear-gradient(33deg, rgba(166, 92, 9, 1) 0%, rgba(9, 95, 119, 1) 47%, rgba(127, 35, 195, 1) 100%);
+    height: 800px;
+    padding: 60px 0px;
+}
+
+.login__main__blk {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.login__titie {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login__titie h1 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.login__titie h1 span {
+    font-weight: 700;
+    color: tomato;
+}
+
+.login__form input {
+    width: 100%;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #fff;
+}
+
+.login__form button {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.login__form button:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+/* Login area css start  */
+
+
+
+
+
+/* Account area css start  */
+
+.account__area {
+    background: linear-gradient(33deg, rgba(166, 92, 9, 1) 0%, rgba(9, 95, 119, 1) 47%, rgba(127, 35, 195, 1) 100%);
+    padding: 60px 0px;
+    height: 800px;
+}
+
+.account__area .container {
+    max-width: 65%;
+}
+
+.account__single__blk {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.account__single__blk h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.account__single__blk p {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.account__form {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.account__main__blk {
+    margin-top: 50px;
+}
+
+.account__form h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.account__form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    outline: none;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.account__form button {
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.account__form button:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Account area css end  */
